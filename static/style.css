@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="file"],
+select,
+input[type="text"] {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#progressWrapper {
+    width: 100%;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#progressBar {
+    width: 0;
+    height: 20px;
+    background: #4caf50;
+}
+
